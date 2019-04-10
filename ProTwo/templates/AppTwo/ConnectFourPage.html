@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Connect 4</title>
+
+
+
+    <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+  <body>
+      <div class="container">
+          <h1 style="text-align: center;">Welcome to Connect Four!</h1>
+          <h2 style="text-align: center;"> The object of this game is to connect four of your chips in a row!</h3>
+            <h3 style= "text-align: center;" id="turnDisplay">Player One's Turn</h3>
+
+
+
+        
+        <table>
+
+            <tr class="row1">
+                <td class="col1"></td>
+                <td class="col2"></td>
+                <td class="col3"></td>
+                <td class="col4"></td>
+                <td class="col5"></td>
+                <td class="col6"></td>
+                <td class="col7"></td>
+            </tr>
+
+            <tr class="row2">
+                <td class="col1"></td>
+                <td class="col2"></td>
+                <td class="col3"></td>
+                <td class="col4"></td>
+                <td class="col5"></td>
+                <td class="col6"></td>
+                <td class="col7"></td>
+            </tr>
+
+            <tr class="row3">
+                <td class="col1"></td>
+                <td class="col2"></td>
+                <td class="col3"></td>
+                <td class="col4"></td>
+                <td class="col5"></td>
+                <td class="col6"></td>
+                <td class="col7"></td>
+            </tr>
+
+            <tr class="row4">
+                <td class="col1" value='hey'></td>
+                <td class="col2"></td>
+                <td class="col3"></td>
+                <td class="col4"></td>
+                <td class="col5"></td>
+                <td class="col6"></td>
+                <td class="col7"></td>
+            </tr>
+
+            <tr class="row5">
+                <td class="col1"></td>
+                <td class="col2"></td>
+                <td class="col3"></td>
+                <td class="col4"></td>
+                <td class="col5"></td>
+                <td class="col6"></td>
+                <td class="col7"></td>
+            </tr>
+
+            <tr class="row6">
+                <td class="col1"></td>
+                <td class="col2"></td>
+                <td class="col3"></td>
+                <td class="col4"></td>
+                <td class="col5"></td>
+                <td class="col6"></td>
+                <td class="col7"></td>
+            </tr>
+
+        </table>
+      </div>
+
+  </body>
+  <script src="{% static "css/ConnectFour.js" %}"></script>
+</html>

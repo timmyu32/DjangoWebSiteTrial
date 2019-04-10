@@ -1,0 +1,42 @@
+body{
+    background: #f7f7f7
+}
+
+#description{
+    font-family: "Oswald";
+    text-align: center;
+}
+
+#descriptionSpan{
+    text-decoration: line-through;
+}
+
+thead th{
+    padding: 80px 100px 400px 100px;
+    border: 15px solid #f7f7f7;  
+}
+
+#cT{
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+#columnOne{
+    background-color: #C5EBC3;
+}
+
+#columnTwo{
+    background-color: #B7C8B5;
+}
+
+#columnThree{
+    background-color: #A790A5;
+}
+
+#columnFour{
+    background-color: #875C74;
+}
+
+#columnFive{
+    background-color: #54414E;
+}
