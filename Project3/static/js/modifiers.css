@@ -1,0 +1,7 @@
+li{
+    transition: background-color 0.5s;
+}
+
+li:hover{
+    background-color: gold;
+}
